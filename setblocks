@@ -1,0 +1,6 @@
+import mcpi.minecraft as minecraft
+import time
+
+mc = minecraft.Minecraft.create()
+
+setBlocks(0, 0, 0, 100, 1, 50, block.pumpkin) 

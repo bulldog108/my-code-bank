@@ -1,0 +1,5 @@
+import mcpi.minecraft as minecraft
+import mcpi.block as block
+mc = minecraft.Minecraft.create()
+
+mc.setBlocks(1, 1, 1, 5, 1000, 5, block.MELON)

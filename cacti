@@ -1,0 +1,7 @@
+import mcpi.minecraft as minecraft
+import mcpi.block as block
+mc = minecraft.Minecraft.create()
+
+pos = mc.player.getTilePos()
+mc.setBlocks(pos.x, pos.y+25, pos.z, pos.x + 10, pos.y + 10, pos.z + 10, block.MELON)
+
